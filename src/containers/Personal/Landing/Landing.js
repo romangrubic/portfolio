@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import classes from './Landing.module.css';
-import gsap, { SteppedEase } from 'gsap';
+// import gsap, { SteppedEase } from 'gsap';
 
 const Landing = (props) => {
     // let LandingText = useRef(null);
