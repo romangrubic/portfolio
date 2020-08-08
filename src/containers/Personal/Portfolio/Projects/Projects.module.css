@@ -1,0 +1,15 @@
+.Project {
+    padding: 20px;
+}
+.ProjectName {
+    color: white;
+    font-weight: 600;
+}
+.Logo img{
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    transition: 0.7s;
+    border: 2px solid rgb(4, 106, 173);
+    opacity: 1;
+}

@@ -1,0 +1,18 @@
+.Content {
+    margin-left: 300px;
+}
+
+@media (min-width: 800px) {
+    .MobileOnly {
+    display: none;
+    }
+}
+@media (max-width: 800px) {
+    .DesktopOnly {
+        display: none;
+    }
+    .Content {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+}

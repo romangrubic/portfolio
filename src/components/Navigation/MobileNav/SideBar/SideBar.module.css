@@ -1,0 +1,42 @@
+.SideDrawer {
+    position: fixed;
+    width: 325px;
+    max-width: 80%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: rgb(42, 119, 170);
+    padding: 24px 16px;
+    box-sizing: border-box;
+    transition: transform 0.4s ease-out;
+}
+.Name {
+    color: white;
+    margin: 15px 0 30px;
+}
+.Name h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.Name h2, h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@media (min-width: 800px){
+    .SideDrawer{
+        display: none;
+    }
+}
+
+.Open{
+    transform: translateX(0);
+}
+.Close{
+    transform: translateX(-100%);
+}
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}

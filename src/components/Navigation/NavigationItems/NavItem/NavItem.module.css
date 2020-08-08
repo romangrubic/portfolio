@@ -1,0 +1,24 @@
+.NavItem {
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    width: 225px;
+    border: 1px solid rgb(139, 139, 139);
+    box-shadow: 2px 3px 5px rgb(145, 145, 145);
+}
+.NavItem a {
+    text-decoration: none;
+    color: rgb(4, 106, 173);
+    font-weight: 600;
+}
+.NavItem:hover {
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(255, 153, 0);
+    box-shadow: 2px 3px 5px rgb(255, 153, 0);
+    transition: 0.25s ease;
+}

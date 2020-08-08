@@ -1,0 +1,32 @@
+.Container {
+    padding:50px;
+}
+
+.AboutInfo {
+    padding: 15px;
+    font-size: 20px;
+}
+.Diploma {
+    padding: 20px 10px 10px;
+}
+.BlackFont {
+    color: black;
+
+}
+.BlackFont:hover{
+    text-decoration: none;
+}
+p{
+    font-size: 19px;
+}
+/* Lists */
+.MainList{
+    font-size: 17px;
+    padding: 0px 75px;
+}
+.SecondList{
+    padding: 0px 50px;
+}
+.ThirdList{
+    padding: 0px 50px;
+}
