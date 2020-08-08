@@ -18,26 +18,25 @@ body {
 
 .context h1 {
     color: #fff;
-    font-size: 65px;
-    /* width: 0; */
     font-weight: 600;
-    /* position: relative;
+    width: 0;
+    position: relative;
     top: 50%;
     width: 20.18em;
-    margin: 0 auto;
+    margin: 30px auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-box-sizing: content-box;
-    box-sizing: content-box; */
+    box-sizing: content-box;
 }
-.context h2 {
+.context h3 {
     padding: 15px 50px;
     color: white;
+    opacity: 0;
 }
 
 .area {
